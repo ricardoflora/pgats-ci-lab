@@ -20,7 +20,7 @@
   steps:
 
 #clone do projeto 
-  uses : actions/checkout@64
+  uses: actions/checkout@64
 
 # instalacao do node
   uses: actions/setup-node@v4
@@ -41,4 +41,4 @@
   name: Executando Testes e2e
   run:  yarn run e2e 
 
-  
+
