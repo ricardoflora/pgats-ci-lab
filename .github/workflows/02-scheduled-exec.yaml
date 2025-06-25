@@ -2,7 +2,8 @@
 
 # nome do nosso 'pipeline'
 
-name: 'Execução Agendado'
+name: 'Execucao Agendado'
+
 # Disparar o pipeline manualmente
 
 # regras de disparo (gatilhos/triggers)
