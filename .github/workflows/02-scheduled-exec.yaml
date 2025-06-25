@@ -11,8 +11,8 @@ name: 'Execução Agendado'
 
 
 on:
-  "schedule:":
-  -cron: '0 6 * * 1' # jobs = tarefas que serão executadas
+  schedule:
+  - cron: '0 6 * * 1' # jobs = tarefas que serão executadas
 jobs:
   # nome do job
   e2e-tests:
