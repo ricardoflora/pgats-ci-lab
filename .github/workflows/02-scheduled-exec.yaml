@@ -2,7 +2,8 @@
 
 # nome do nosso 'pipeline'
 
-name: 'Execução Agendado'
+name: 'Execucao Agendado'
+
 # Disparar o pipeline manualmente
 
 # regras de disparo (gatilhos/triggers)
@@ -10,7 +11,7 @@ name: 'Execução Agendado'
 ###
 
 
-  on:
+on:
     schedule:
     - cron: '0 6 * * 1' # jobs = tarefas que serão executadas
 jobs:
