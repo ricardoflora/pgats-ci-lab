@@ -13,11 +13,17 @@ on:
   workflow_run:
     workflows: [ 'Execução Manual' ] # jobs = tarefas que serão executadas
     types:
-      - completed
+    - completed
 
 jobs:
   # nome do job
   e2e-tests:
+    # condicional - if
+    # `${ expressao}´
+    # == comparação de igualdade
+
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+
     # maquina que o job vai executar
     runs-on: ubuntu-latest
 
