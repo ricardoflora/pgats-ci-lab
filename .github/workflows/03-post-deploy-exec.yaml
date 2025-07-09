@@ -13,7 +13,7 @@ on:
   workflow_run:
     workflows: [ 'Execucao Manual' ] # jobs = tarefas que serão executadas
     types:
-    - completed
+      - completed
 
 jobs:
   # nome do job
