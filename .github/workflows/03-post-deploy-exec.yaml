@@ -11,7 +11,7 @@ name: 'Execução por Deploy'
 
 on:
   workflow_run:
-    workflows: [ 'Execucao Manual' ] # jobs = tarefas que serão executadas
+    workflows: [ 'Execução Manual' ] # jobs = tarefas que serão executadas
     types:
     - completed
 
